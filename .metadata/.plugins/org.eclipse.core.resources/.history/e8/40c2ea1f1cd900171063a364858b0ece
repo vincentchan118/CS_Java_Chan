@@ -1,0 +1,21 @@
+import java.util.scanner;
+
+public class AskingQuestions;
+{
+	public static void main ( string[] args )
+	{
+		String name;
+		int age, feet, inches;
+		double weight;
+		
+		System.out.println("What is yur name?");
+		name = keyboard.mext();
+		
+		System.out.println("How old are you?");
+		age = keyboard.nextInt();
+		
+		System.out.println();
+		System.out.println();
+		System.out.println();
+	}
+}
