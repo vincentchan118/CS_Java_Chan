@@ -18,6 +18,6 @@ public class Ageln5
 		System.out.println("How old are you?");
 		age = keyboard.nextInt();
 		
-		System.out.println("Did you know that in five years you will be " + ( age + num ) + "years old? and five years ago you were " + age + "! Imagine that.");
+		System.out.println("Did you know that in five years you will be " + ( age + num ) + "years old? and five years ago you were " + (age - 5) + "! Imagine that.");
 	}
 }

@@ -8,12 +8,10 @@ public class HowOldSpecifically
 		int age;
 		String name;
 		
-		System.out.print("What is your name?" );
+		System.out.println("What is your name?" );
 		name = keyboard.next();
-		System.out.println(name);
-		System.out.print("Ok " + name + ", how old are you?");
+		System.out.println("Ok " + name + ", how old are you?");
 		age = keyboard.nextInt();
-		System.out.println(age);
 		
 		if (age < 16)
 		{
