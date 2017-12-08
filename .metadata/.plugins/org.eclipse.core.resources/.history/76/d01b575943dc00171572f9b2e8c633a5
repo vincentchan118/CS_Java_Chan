@@ -14,7 +14,7 @@ public class CountingWhile
 		while (n < 5)
 		{
 			System.out.println( (n+1) + ". " + Message );
-			n++;
+			n++
 		}
 	}
 }
