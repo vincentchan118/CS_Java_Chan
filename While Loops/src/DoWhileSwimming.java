@@ -54,3 +54,9 @@ public class DoWhileSwimming
         System.out.println( swimmer2 + " stops swimming. Total swim time: " + swimTime + " min." );
     }
 }
+
+//a. Yes.
+//b. Gallant doesn't swim and Goofus only does so for a minute.
+//c. Checks.
+//d. Dives right in.
+//e. Goofus is post and Gallant is pre.

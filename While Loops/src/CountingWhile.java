@@ -13,8 +13,11 @@ public class CountingWhile
 		int n = 0;
 		while (n < 5)
 		{
-			System.out.println( (n+1) + ". " + Message );
+			System.out.println( (n+1) + ". " + message );
 			n++;
 		}
 	}
 }
+//a. it adds one to n
+//b. Avoiding having to type System.out.println(); over and over again.
+//c. It creates a loop that ends itself when an action is completed 5 times.

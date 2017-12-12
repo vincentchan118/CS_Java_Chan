@@ -26,3 +26,7 @@ public class FlipAgain
 		keyboard.close();
 	}
 }
+//a. The do part holds the action that will be completed. The while represents the condition needed before repeating.
+//b. Because weather or not the loop is repeated depends on the user's input which is dependent on a previous outcome of the same loop.
+//c. The loop will first run and wait to see if it needs to continue.
+//b. The while loop checks condition first whereas the do while first completes the loop and checks before continuing.

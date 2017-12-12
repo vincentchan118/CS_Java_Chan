@@ -7,8 +7,8 @@ public class DoubleDice
 		Random r = new Random();
 		int num1, num2;
 		
-		num1 = r.nextInt(6);
-		num2 = r.nextInt(6);
+		num1 = 1 + r.nextInt(6);
+		num2 = 1 + r.nextInt(6);
 		
 		while (num1 != num2)
 		{
