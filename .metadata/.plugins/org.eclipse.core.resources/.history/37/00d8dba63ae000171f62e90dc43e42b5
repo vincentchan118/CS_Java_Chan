@@ -11,12 +11,11 @@ public class AddingValuesForLoop
 		System.out.print("Number: ");
 		num = keyboard.nextInt();
 		
-		for (int n = 1; n<=num; n++)
+		for (int n = 1; n!=num; n=n+1)
 		{
 			System.out.print(n + " ");
-			t=t+n;
+			t=n+n;
 		}
-		System.out.println();
-		System.out.print("The sum is " + t);
+		System.out.print(t);
 	}
 }

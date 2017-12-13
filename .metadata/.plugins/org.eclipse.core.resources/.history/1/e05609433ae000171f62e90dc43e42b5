@@ -6,17 +6,15 @@ public class AddingValuesForLoop
 	{
 		Scanner  keyboard = new Scanner(System.in);
 		
-		int num, t;
-		t = 0;
+		int num;
+		
 		System.out.print("Number: ");
 		num = keyboard.nextInt();
 		
-		for (int n = 1; n<=num; n++)
+		for (int n = 0; n!=num; n=n+1)
 		{
 			System.out.print(n + " ");
-			t=t+n;
 		}
-		System.out.println();
-		System.out.print("The sum is " + t);
+		
 	}
 }
