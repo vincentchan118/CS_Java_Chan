@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class AreaCalculator 
+{
+	public static void main( String[] args )
+	{
+		Scanner keyboard = new Scanner(System.in);
+	}
+	public static double triangle(int b, int h)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.print("What is the length of the base? ");
+		b = keyboard.nextInt();
+		System.out.print("What is the length of the height? ");
+		h = keyboard.nextInt();
+		double area = (b * h)/2;
+		return area;
+	}
+	public static double square(int s)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.print("What is the length of the sides? ");
+		s = keyboard.nextInt();
+		double area = s*s;
+		return area;
+	}
+	public static double 
+}

@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class MethodPass 
+{
+	public static void main( String[] args )
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.print("Pick a number: ");
+		int num = keyboard.nextInt();
+		System.out.println(check(num));
+	}
+	public static String check(int num)
+	{
+		if (num%3 == 0)
+		{
+			return "I like that number";
+		}
+		else
+		{
+			return "That number is gross";
+		}
+	}
+}
